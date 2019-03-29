@@ -1,0 +1,21 @@
+header {
+  font-family: Noto Sans ;
+  font-weight: 400;
+}
+
+.body {
+  font-family: Noto Sans ;
+  font-weight: 400;
+}
+
+.grey-background {
+    background-color: #bdbdbd;
+}
+
+.orchid-background {
+    background-color: orchid;
+}
+
+.center-text {
+    text-align: center;
+}

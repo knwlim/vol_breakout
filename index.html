@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Coin Strategy</title>
+  <meta name="description" content="volatility breakout strategy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135274056-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135274056-2');
+  </script>
+
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser.
+  Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<!-- Add your site or application content here -->
+<header id="header">
+  <h1 class="title">변동성 돌파전략</h1>
+  <h4> 목표가 = 시가 + (전일 고가 – 전일 저가) * 0.6 </h4>
+  <h5> 업비트 기준가격 </h5>
+</header>
+
+<main class="coin_list">
+  <div id="table_div" style="width: 800px;"></div>
+</main>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
